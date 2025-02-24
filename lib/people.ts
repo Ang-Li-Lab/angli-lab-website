@@ -13,6 +13,7 @@ export const peopleData = [
     role: "Senior Clinical Research Associate",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/u251861.jpeg",
     website: "https://www.bcm.edu/people-search/mrinal-ranjan-145941",
+    email: "",
   },
   {
     name: "Jun Yang Jiang",
@@ -20,6 +21,7 @@ export const peopleData = [
     role: "Fellow Physician",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/default_images/people-placeholder_0.png",
     website: "https://www.bcm.edu/people-search/jun-yang-jiang-109016",
+    email: "",
   },
   {
     name: "Raka Bandyo",
@@ -27,6 +29,7 @@ export const peopleData = [
     role: "Epic Analyst",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/default_images/people-placeholder_0.png",
     website: "https://www.bcm.edu/people-search/raka-bandyo-65276",
+    email: "",
   },
   {
     name: "Danielle Guffey",
@@ -34,6 +37,7 @@ export const peopleData = [
     role: "Senior Biostatistician",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/guffey.jpeg",
     website: "https://www.bcm.edu/people-search/danielle-guffey-22431",
+    email: "",
   },
   {
     name: "Juan Bueno",
@@ -41,6 +45,7 @@ export const peopleData = [
     role: "Research Coordinator III",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/u238280.jpeg",
     website: "https://www.bcm.edu/people-search/juan-bueno-81031",
+    email: "",
   },
   {
     name: "Omid Jafari",
@@ -48,6 +53,7 @@ export const peopleData = [
     role: "Senior Software Engineer",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/u253911.jpeg",
     website: "https://www.bcm.edu/people-search/omid-jafari-154996",
+    email: "",
   },
 
 ];
