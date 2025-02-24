@@ -5,6 +5,7 @@ export const peopleData = [
     role: "Assistant Professor (Lab Director)",
     imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/233211.jpeg",
     website: "https://www.bcm.edu/people-search/ang-li-48196",
+    email: "ang.li2@bcm.edu",
   },
   {
     name: "Mrinal Ranjan",

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
-import { FaGlobe } from "react-icons/fa6";
+import { FaGlobe, FaEnvelope } from "react-icons/fa6";
 
 interface TeamProps {
   peopleData: { [key: string]: string }[];
@@ -31,6 +31,15 @@ export default function TeamComp({ peopleData }: TeamProps) {
               >
                 <FaGlobe />
               </Link>
+              {person.email && (
+                <Link
+                  href={`mailto:${ person.email }`}
+                  target="_blank"
+                  className="bg-blue-800 flex items-center justify-center shadow rounded-full h-8 w-8 text-white"
+                >
+                  <FaEnvelope />
+                </Link>
+              )}
             </div>
           </div>
         ))}
