@@ -7,8 +7,8 @@ import FooterComp from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Data Science Core",
-  description: "ICTR Data Science Core at Baylor College of Medicine",
+  title: "Ang Li Lab",
+  description: "Ang Li Lab at Baylor College of Medicine",
 };
 
 export default function RootLayout({
