@@ -22,34 +22,34 @@ interface PhotosProps {
 
 export default function PhotosComp({ photosData }: PhotosProps) {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: true })
   )
 
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-3xl"
+      className="w-full"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
         {photosData.map((photo, index) => (
           <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image className="self-center flex-shrink-0 -mt-12 bg-center bg-cover bg-gray-500 fill shadow-md" src={photo.imageUrl} alt="" />
-                </CardContent>
-                <CardFooter className="flex justify-center">
-                  <p>{photo.description}</p>
-                </CardFooter>
-              </Card>
-            </div>
+            <Card className="w-full">
+              <CardContent className="relative w-full h-[50vh] mb-4 mt-4">
+                <Image className="object-contain object-center" src={photo.imageUrl} fill alt="" />
+              </CardContent>
+              <CardFooter className="grid grid-cols-3 items-center text-center">
+                <div />
+                <p className="text-center">{photo.description}</p>
+                <div className="justify-self-end">{index + 1} of {photosData.length}</div>
+              </CardFooter>
+            </Card>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2" />
+      <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2" />
     </Carousel>
   );
 }
