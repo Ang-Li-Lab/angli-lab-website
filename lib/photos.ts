@@ -8,7 +8,7 @@ import htrs_2025 from "@/public/htrs_2025.jpeg";
 
 export const photosData = [
   {
-    description: "ASH 2023 Conference",
+    description: 'Ang Li Lab members at ASH 2023 (L to R: Shengling Ma (postdoc), Jun "Mark" Jiang (Fellow), Ang Li, Rockbum Kim (postdoc), Hanqing "Kathy" (PGY3)',
     imageUrl: ash_2023,
   },
   {
@@ -20,15 +20,15 @@ export const photosData = [
     imageUrl: icthic_2024,
   },
   {
-    description: "2024 AI in Health Conference",
+    description: '2024 AI in Health Conference (L to R: Omid Jafari, Jun "Mark" Jiang)',
     imageUrl: rice_ai_in_health_conf_2024,
   },
   {
-    description: "ASH 2024 Conference",
+    description: "Mark presenting at ASH 2024 Conference",
     imageUrl: ash_2024,
   },
   {
-    description: "Mrinal Presenting Poster at HTRS 2025",
+    description: "Mrinal presenting at HTRS 2025",
     imageUrl: htrs_2025,
   },
 ];
