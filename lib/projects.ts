@@ -11,9 +11,9 @@ export const projectsData = [
   },
   {
     name: "NLPMed",
-    intranetOnly: true,
+    intranetOnly: false,
     description: "An end-to-end Natural Language Processing platform providing annotation and model training tools.",
     imageUrl: nlpmed_screenshot,
-    link: "https://ictr.dldcc.bcm.edu/nlp/",
+    link: "https://nlpmed.demo.angli-lab.com/",
   },
 ];
