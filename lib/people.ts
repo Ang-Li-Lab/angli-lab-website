@@ -16,6 +16,22 @@ export const peopleData = [
     email: "",
   },
   {
+    name: "Omid Jafari",
+    title: "Ph.D.",
+    role: "Senior Software Engineer and Data Scientist",
+    imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/u253911.jpeg",
+    website: "https://www.bcm.edu/people-search/omid-jafari-154996",
+    email: "",
+  },
+  {
+    name: "Danielle Guffey",
+    title: "",
+    role: "Senior Biostatistician",
+    imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/guffey.jpeg",
+    website: "https://www.bcm.edu/people-search/danielle-guffey-22431",
+    email: "",
+  },
+  {
     name: "Jun Yang Jiang",
     title: "PGY6",
     role: "Fellow Physician",
@@ -32,14 +48,6 @@ export const peopleData = [
     email: "",
   },
   {
-    name: "Danielle Guffey",
-    title: "",
-    role: "Senior Biostatistician",
-    imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/guffey.jpeg",
-    website: "https://www.bcm.edu/people-search/danielle-guffey-22431",
-    email: "",
-  },
-  {
     name: "Juan Bueno",
     title: "",
     role: "Research Coordinator III",
@@ -48,12 +56,11 @@ export const peopleData = [
     email: "",
   },
   {
-    name: "Omid Jafari",
-    title: "Ph.D.",
-    role: "Senior Software Engineer",
-    imageUrl: "https://cdn.bcm.edu/sites/default/files/profile_photos/u253911.jpeg",
-    website: "https://www.bcm.edu/people-search/omid-jafari-154996",
+    name: "Preeti, Ph.D.",
+    title: "",
+    role: "Postdoctoral Associate",
+    imageUrl: "https://cdn.bcm.edu/sites/default/files/default_images/people-placeholder_0.png",
+    website: "https://www.bcm.edu/people-search/fnu-preeti-182351",
     email: "",
   },
-
 ];
