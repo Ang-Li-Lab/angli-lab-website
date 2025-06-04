@@ -63,4 +63,12 @@ export const peopleData = [
     website: "https://www.bcm.edu/people-search/fnu-preeti-182351",
     email: "",
   },
+  {
+    name: "Dang Nhu Hai Pham, Ph.D.",
+    title: "",
+    role: "Postdoctoral Associate",
+    imageUrl: "https://cdn.bcm.edu/sites/default/files/default_images/people-placeholder_0.png",
+    website: "https://www.bcm.edu/people-search/dang-nhu-hai-pham-186551",
+    email: "",
+  },
 ];
