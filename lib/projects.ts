@@ -19,6 +19,13 @@ export const projectsData = [
     link: "https://nlpmed.demo.angli-lab.com/",
   },
   {
+    name: "NLPMed (BCM)",
+    intranetOnly: true,
+    description: "",
+    imageUrl: nlpmed_screenshot,
+    link: "https://ictr.dldcc.bcm.edu/nlpmed/",
+  },
+  {
     name: "CDM",
     intranetOnly: false,
     description: "A Common Data Model developed to streamline research on electronic health record (EHR) databases.",

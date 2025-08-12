@@ -4,6 +4,7 @@ import icthic_2024 from "@/public/icthic_2024.jpg";
 import rice_ai_in_health_conf_2024 from "@/public/rice_ai_in_health_conf_2024.jpg";
 import ash_2024 from "@/public/ash_2024.jpg";
 import htrs_2025 from "@/public/htrs_2025.jpeg";
+import aimahead_2025 from "@/public/aimahead_2025.jpg";
 
 
 export const photosData = [
@@ -30,5 +31,9 @@ export const photosData = [
   {
     description: "Mrinal presenting at HTRS 2025",
     imageUrl: htrs_2025,
+  },
+  {
+    description: "2025 AIM-AHEAD Annual Meeting (L to R: Omid Jafari, Abiodun Oluyomi, Ang Li)",
+    imageUrl: aimahead_2025,
   },
 ];
